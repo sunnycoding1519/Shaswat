@@ -83,6 +83,7 @@ export default function UpcomingEvents() {
 
               <p className="event-desc">{event.description}</p>
             </div>
+            
           </div>
         ))}
       </div>
