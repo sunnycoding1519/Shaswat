@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Course from "./pages/Course";
 import Gallery from "./pages/Gallery";
 import UpcomingEvents from "./pages/UpcomingEvents";
+import Centers from "./pages/Centers";
 
 function App() {
   return (
@@ -13,16 +14,17 @@ function App() {
       <Navbar />
 
       <Routes>
+        {/* Main Pages */}
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
 
-        {/* Navbar exact paths */}
+        {/* Navbar exact paths (case + space sensitive) */}
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/Our Courses" element={<Course />} />
         <Route path="/Upcoming Events" element={<UpcomingEvents />} />
+        <Route path="/OurCenters" element={<Centers />} />
 
-        {/* temporary empty pages (no error) */}
-        <Route path="/OurCenters" element={<div />} />
+        {/* Temporary placeholders (safe, no crash) */}
         <Route path="/Testimonials" element={<div />} />
         <Route path="/Contact us" element={<div />} />
       </Routes>
