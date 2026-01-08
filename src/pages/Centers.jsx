@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Centers.css";
+import "../style/Centers.css";
 
 const centers = [
   {
