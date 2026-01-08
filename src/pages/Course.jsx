@@ -33,7 +33,7 @@ const courses = [
   {
     id: 3,
     title: "Hormonal Imbalance",
-    image: "/images/hormonal.jpg",
+    image: "/Images/hormonal.jpg",
     description:
       "This course explains hormonal imbalance from a natural and holistic perspective, helping restore internal harmony through lifestyle and healing methods.",
     learnings: [
@@ -47,7 +47,7 @@ const courses = [
   {
     id: 4,
     title: "Nadi Parikshan",
-    image: "/images/nadi.jpeg",
+    image: "/Images/nadi.jpeg",
     description:
       "Nadi Parikshan is a powerful diagnostic science where diseases are identified by reading the pulse and understanding body energy patterns.",
     learnings: [
