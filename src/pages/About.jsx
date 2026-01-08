@@ -2,7 +2,7 @@ import "../style/About.css";
 
 // Images (replace later)
 import aboutBg from "../images/about-hero-bg.jpeg";     // background image
-import babaCutout from "../images/about-baba-cutout.png"; // baba ji cutout
+//import babaCutout from "../images/about-baba-cutout.png"; // baba ji cutout
 
 import shaswatImg from "../images/about-shaswat.jpg";
 import gurudevImg from "../images/gurudev.jpg";

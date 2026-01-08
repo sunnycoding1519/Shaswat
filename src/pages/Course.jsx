@@ -46,10 +46,10 @@ const courses = [
   },
   {
     id: 4,
-    title: "Nadi Chikitsa",
-    image: "/images/nadi-chikitsa.jpg",
+    title: "Nadi Parikshan",
+    image: "/images/nadi.jpeg",
     description:
-      "Nadi Chikitsa is a powerful diagnostic science where diseases are identified by reading the pulse and understanding body energy patterns.",
+      "Nadi Parikshan is a powerful diagnostic science where diseases are identified by reading the pulse and understanding body energy patterns.",
     learnings: [
       "Pulse reading fundamentals",
       "Energy imbalance detection",
