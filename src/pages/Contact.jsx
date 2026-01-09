@@ -41,7 +41,7 @@ export default function Contact() {
           {/* Baba Ji Section */}
           <div className="baba-section">
             <img
-              src="/Images/about-shaswat.jpg"
+              src="/Images/babaji.jpg"
               alt="Baba Ji"
             />
             <p className="baba-quote">
