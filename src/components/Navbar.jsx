@@ -25,9 +25,6 @@ return (
                 <li><a href="/Upcoming Events">Upcoming Events</a></li>
                 <li><a href="/Testimonials">Testimonials</a></li>
                 <li><a href="/Contact us">Contact us</a></li>
-                <li className="mobile-only">
-                    <a href="/contact">Contact</a>
-                </li>
                 <li className="mobile-only phone">
                     <a href="tel:7355095660">Helpline no.📞+91-7355095660</a>
                 </li>

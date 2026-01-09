@@ -18,7 +18,7 @@ const Home = () => {
 
         <div className="hero-content">
           <h1>
-           Welcome शाश्वत चिकित्सा
+           Welcome Shaswat Chikitsa
             <span>प्रकृति से जुड़कर पूर्ण स्वास्थ्य की ओर</span>
           </h1>
 

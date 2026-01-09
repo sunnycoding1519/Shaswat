@@ -7,6 +7,7 @@ import Course from "./pages/Course";
 import Gallery from "./pages/Gallery";
 import UpcomingEvents from "./pages/UpcomingEvents";
 import Centers from "./pages/Centers";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -23,10 +24,10 @@ function App() {
         <Route path="/Our Courses" element={<Course />} />
         <Route path="/Upcoming Events" element={<UpcomingEvents />} />
         <Route path="/OurCenters" element={<Centers />} />
+        <Route path="/Contact us" element={<Contact />} />
 
-        {/* Temporary placeholders (safe, no crash) */}
+        {/* Temporary placeholder */}
         <Route path="/Testimonials" element={<div />} />
-        <Route path="/Contact us" element={<div />} />
       </Routes>
     </BrowserRouter>
   );
