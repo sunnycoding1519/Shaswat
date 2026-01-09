@@ -5,6 +5,7 @@ export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
+    address: "",
     message: ""
   });
 
@@ -19,7 +20,12 @@ export default function Contact() {
 
     alert("Thank you! We will contact you shortly.");
 
-    setFormData({ name: "", phone: "", message: "" });
+    setFormData({
+      name: "",
+      phone: "",
+      address: "",
+      message: ""
+    });
   };
 
   return (
@@ -30,8 +36,19 @@ export default function Contact() {
       </p>
 
       <div className="contact-grid">
-        {/* LEFT INFO */}
+        {/* LEFT INFO + BABA JI */}
         <div className="contact-info">
+          {/* Baba Ji Section */}
+          <div className="baba-section">
+            <img
+              src="/Images/babaji.jpg"
+              alt="Baba Ji"
+            />
+            <p className="baba-quote">
+              “Healing begins with faith, discipline, and right guidance.”
+            </p>
+          </div>
+
           <h3>📞 Phone</h3>
           <p>
             <a href="tel:+917355095660">+91 73550 95660</a>
@@ -65,7 +82,7 @@ export default function Contact() {
 
         {/* RIGHT FORM */}
         <div className="contact-form-box">
-          <h3>Send Us a Message</h3>
+          <h3>Send Enquiry</h3>
 
           <form onSubmit={handleSubmit}>
             <input
@@ -84,6 +101,14 @@ export default function Contact() {
               value={formData.phone}
               onChange={handleChange}
               required
+            />
+
+            <input
+              type="text"
+              name="address"
+              placeholder="Your Address"
+              value={formData.address}
+              onChange={handleChange}
             />
 
             <textarea
