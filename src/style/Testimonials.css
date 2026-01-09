@@ -1,0 +1,87 @@
+.testimonials-page {
+  padding: 90px 6%;
+  background: linear-gradient(to bottom, #fbf7f1, #ffffff);
+}
+
+.testimonials-title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 10px;
+  color:#8b5e34
+}
+
+.testimonials-subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 60px;
+}
+
+.section-heading {
+  font-size: 28px;
+  margin: 50px 0 25px;
+  color: #8b5e34;
+}
+
+/* VIDEO */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.video-card {
+  background: #fff;
+  border-radius: 22px;
+  padding: 15px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.video-card video {
+  width: 100%;
+  border-radius: 18px;
+  margin-bottom: 10px;
+}
+
+/* REVIEWS */
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.review-card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 25px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+}
+
+.review-card h4 {
+  margin-bottom: 5px;
+  color: #1e1e1e;
+}
+
+.city {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.experience {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.rating {
+  font-size: 18px;
+  color: #f5a623;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .testimonials-title {
+    font-size: 34px;
+  }
+}

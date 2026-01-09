@@ -1,0 +1,150 @@
+.footer {
+  background: linear-gradient(180deg, #6f3f1d, #4a2a14);
+  color: #f5f1ec;
+  padding: 70px 6% 25px;
+  font-family: inherit;
+}
+
+/* ================= MAIN GRID ================= */
+.footer-container {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 50px;
+  align-items: flex-start;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* ================= BRAND ================= */
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.footer-desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #f0e6dc;
+  max-width: 320px;
+}
+
+/* ================= LINKS ================= */
+.footer-links h4,
+.footer-social h4 {
+  font-size: 18px;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #f0e6dc;
+  transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffd7a0;
+  padding-left: 4px;
+}
+
+/* ================= SOCIAL ================= */
+.footer-social {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.social-icons a {
+  width: 42px;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.35s ease;
+}
+
+.social-icons a:hover {
+  background: #d6a25e;
+  color: #3a1f0d;
+  transform: translateY(-4px) scale(1.05);
+}
+
+.social-note {
+  font-size: 13px;
+  color: #f0e6dc;
+  max-width: 260px;
+}
+
+/* ================= FOOTER BOTTOM ================= */
+.footer-bottom {
+  margin-top: 45px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  text-align: center;
+  font-size: 13px;
+  color: #f0e6dc;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 1024px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .footer-desc {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-brand,
+  .footer-links,
+  .footer-social {
+    align-items: center;
+  }
+
+  .footer-links ul {
+    align-items: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .footer-desc,
+  .social-note {
+    margin: 0 auto;
+  }
+}

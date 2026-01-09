@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Course from "./pages/Course";
@@ -8,6 +10,7 @@ import Gallery from "./pages/Gallery";
 import UpcomingEvents from "./pages/UpcomingEvents";
 import Centers from "./pages/Centers";
 import Contact from "./pages/Contact";
+import Testimonials from "./pages/Testimonials";
 
 function App() {
   return (
@@ -25,10 +28,10 @@ function App() {
         <Route path="/Upcoming Events" element={<UpcomingEvents />} />
         <Route path="/OurCenters" element={<Centers />} />
         <Route path="/Contact us" element={<Contact />} />
-
-        {/* Temporary placeholder */}
-        <Route path="/Testimonials" element={<div />} />
+        <Route path="/Testimonials" element={<Testimonials />} />
       </Routes>
+
+      <Footer />
     </BrowserRouter>
   );
 }
