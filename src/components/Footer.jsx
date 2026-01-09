@@ -33,10 +33,37 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* SOCIAL */}
+        {/* SOCIAL + CONTACT */}
         <div className="footer-social">
           <h4>Connect With Us</h4>
 
+          {/* CONTACT DETAILS */}
+          <div className="footer-contact">
+            <p>
+              📞 Helpline:&nbsp;
+              <a href="tel:+917355095660">+91 73550 95660</a>
+            </p>
+
+            <p>
+              <i className="fa-brands fa-whatsapp"></i>&nbsp; WhatsApp:&nbsp;
+              <a
+                href="https://wa.me/917355095660"
+                target="_blank"
+                rel="noreferrer"
+              >
+                +91 73550 95660
+              </a>
+            </p>
+
+            <p>
+              ✉️ Email:&nbsp;
+              <a href="mailto:info@shashwatchikitsa.com">
+                info@shashwatchikitsa.com
+              </a>
+            </p>
+          </div>
+
+          {/* SOCIAL ICONS */}
           <div className="social-icons">
             <a href="#" aria-label="YouTube">
               <i className="fa-brands fa-youtube"></i>

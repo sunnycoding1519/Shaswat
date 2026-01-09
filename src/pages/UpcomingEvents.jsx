@@ -6,11 +6,11 @@ const announcementText =
 const events = [
   {
     id: 1,
-    title: "Shashwat Chikitsa Healing Camp",
-    location: "Haridwar, Uttarakhand",
-    date: "15 March 2026",
+    title: "Shashwat Chikitsa Shivir",
+    location: "Terapanth Seva Samaj, Ahmedabad, Gujarat",
+    date: "16 to 18 january 2026",
     speaker: "Dr. Swami Bhakti Prakash Ji",
-    image: "/Images/events/testphoto1.jpg",
+    image: "/Images/events/event GJ.jpeg",
     description:
       "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles."
   },
