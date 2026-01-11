@@ -10,22 +10,48 @@ export default function Contact() {
   });
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value
+    }));
   };
 
+  // ✅ GOOGLE SHEET SUBMIT (FINAL WORKING VERSION)
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log("Contact Enquiry:", formData);
+    const bodyData =
+      `name=${encodeURIComponent(formData.name)}` +
+      `&phone=${encodeURIComponent(formData.phone)}` +
+      `&address=${encodeURIComponent(formData.address)}` +
+      `&message=${encodeURIComponent(formData.message)}`;
 
-    alert("Thank you! We will contact you shortly.");
+    fetch(
+      "https://script.google.com/macros/s/AKfycbzZ79VOYUUC5WYF3_x8vfkbLA4Li6sYb1EWuXhW52-AWUhWRflYBhfjfrTAdRG-dmW7FA/exec",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: bodyData
+      }
+    )
+      .then((res) => res.text())
+      .then(() => {
+        alert("Thank you! Your enquiry has been sent successfully.");
 
-    setFormData({
-      name: "",
-      phone: "",
-      address: "",
-      message: ""
-    });
+        setFormData({
+          name: "",
+          phone: "",
+          address: "",
+          message: ""
+        });
+      })
+      .catch((err) => {
+        console.error(err);
+        alert("Something went wrong. Please try again.");
+      });
   };
 
   return (
@@ -36,14 +62,10 @@ export default function Contact() {
       </p>
 
       <div className="contact-grid">
-        {/* LEFT INFO + BABA JI */}
+        {/* LEFT INFO */}
         <div className="contact-info">
-          {/* Baba Ji Section */}
           <div className="baba-section">
-            <img
-              src="/Images/babaji.jpg"
-              alt="Baba Ji"
-            />
+            <img src="/Images/babaji.jpg" alt="Baba Ji" />
             <p className="baba-quote">
               “Healing begins with faith, discipline, and right guidance.”
             </p>
@@ -118,9 +140,7 @@ export default function Contact() {
               onChange={handleChange}
             ></textarea>
 
-            <button type="submit">
-              Send Enquiry
-            </button>
+            <button type="submit">Send Enquiry</button>
           </form>
         </div>
       </div>

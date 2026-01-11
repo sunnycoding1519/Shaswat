@@ -41,7 +41,7 @@ export default function Footer() {
           <div className="footer-contact">
             <p>
               📞 Helpline:&nbsp;
-              <a href="tel:+917355095660">+91 73550 95660</a>
+              <a href="tel:+919250588545">+91 92505 88545</a>
             </p>
 
             <p>

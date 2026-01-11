@@ -25,31 +25,43 @@
   background: linear-gradient(
     180deg,
     rgba(60, 40, 20, 0.65),
-    rgba(20, 10, 5, 0.75)
+    rgba(20, 10, 5, 0.8)
   );
 }
 
 .hero-content {
   position: relative;
-  max-width: 900px;
-  margin: auto;
-  text-align: center;
+  max-width: 700px;
+  margin-left: 8%;
+  text-align: left;
   color: #fff;
 }
 
-.hero-content h1 {
-  font-size: 46px;
-  line-height: 1.3;
+/* ===== HERO TEXT ===== */
+.hero-title {
+  line-height: 1.15;
   margin-bottom: 22px;
-  font-weight: 700;
 }
 
-.hero-content h1 span {
+.hero-welcome {
   display: block;
   font-size: 26px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.hero-main {
+  display: block;
+  font-size: 56px;
+  font-weight: 700;
+  color: #ff8c42;
+}
+
+.hero-tagline {
+  display: block;
+  font-size: 22px;
   margin-top: 10px;
   color: #fd6c3d;
-  font-weight: 500;
 }
 
 .hero-content p {
@@ -57,25 +69,24 @@
   line-height: 1.8;
   margin-bottom: 14px;
   color: #f6e9d7;
+  max-width: 520px;
 }
 
 .hero-content .guru {
-  margin-top: 12px;
+  margin-top: 10px;
   font-size: 18px;
   color: #ffddb0;
 }
 
-/* ================= BUTTONS ================= */
+/* ================= BUTTON ================= */
 .hero-buttons {
   margin-top: 32px;
   display: flex;
-  justify-content: center;
-  gap: 18px;
-  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .btn {
-  padding: 14px 30px;
+  padding: 14px 32px;
   border-radius: 40px;
   font-size: 15px;
   font-weight: 600;
@@ -93,16 +104,7 @@
   transform: translateY(-2px);
 }
 
-.btn.secondary {
-  border: 1.5px solid #ffddb0;
-  color: #ffddb0;
-}
-
-.btn.secondary:hover {
-  background: rgba(255, 221, 176, 0.15);
-}
-
-/* ================= ABOUT SECTION ================= */
+/* ================= ABOUT ================= */
 .about-section {
   max-width: 1200px;
   margin: auto;
@@ -116,17 +118,6 @@
   font-size: 34px;
   margin-bottom: 22px;
   color: #3b2f23;
-  position: relative;
-}
-
-.about-left h2::after {
-  content: "";
-  width: 70px;
-  height: 4px;
-  background: #8b5e34;
-  display: block;
-  margin-top: 10px;
-  border-radius: 4px;
 }
 
 .about-left p {
@@ -148,93 +139,14 @@
   border-radius: 16px;
   object-fit: cover;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease;
 }
 
-.image-grid img:hover {
-  transform: scale(1.03);
-}
-
-/* ================= PANCHTATVA ================= */
-.panchtatva-section {
-  background: linear-gradient(
-    180deg,
-    #efe2cf,
-    #f7efe4
-  );
-  padding: 80px 20px;
-  text-align: center;
-}
-
-.panchtatva-section h2 {
-  font-size: 34px;
-  color: #3b2f23;
-  margin-bottom: 22px;
-}
-
-.panchtatva-section p {
-  max-width: 900px;
-  margin: auto;
-  font-size: 18px;
-  line-height: 1.8;
-  color: #4a3b2a;
-}
-
-.panchtatva-section ul {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 0;
-  list-style: none;
-}
-
-.panchtatva-section li {
-  font-size: 17px;
-  padding: 10px 0;
-  color: #5a452f;
-}
-
-/* ================= RESPONSIVE ================= */
-@media (max-width: 900px) {
-  .about-section {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-content h1 {
-    font-size: 34px;
-  }
-
-  .hero-content h1 span {
-    font-size: 20px;
-  }
-
-  .hero-content p,
-  .about-left p {
-    font-size: 16px;
-  }
-
-  .about-left h2 {
-    font-size: 26px;
-  }
-}
-/* ================= DISEASE SECTION ================= */
+/* ================= DISEASE ================= */
 .disease-section {
   padding: 90px 20px;
   background: linear-gradient(180deg, #f4eadc, #fbf7f1);
   text-align: center;
-}
-
-.disease-section h2 {
-  font-size: 34px;
-  color: #3b2f23;
-  margin-bottom: 18px;
-}
-
-.disease-intro {
-  max-width: 900px;
-  margin: auto;
-  font-size: 18px;
-  line-height: 1.8;
-  color: #4a3b2a;
+   color: #3b2f23; 
 }
 
 .disease-grid {
@@ -253,26 +165,27 @@
   text-align: left;
 }
 
-.disease-card h3 {
-  font-size: 18px;
-  color: #8b5e34;
-  margin-bottom: 10px;
-}
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+  .hero-content {
+    margin-left: 0;
+    padding: 0 20px;
+  }
 
-.disease-card p {
-  font-size: 16px;
-  line-height: 1.7;
-  color: #4a3b2a;
-}
+  .hero-main {
+    font-size: 40px;
+  }
 
-.disease-note {
-  max-width: 900px;
-  margin: 30px auto;
-  font-size: 17px;
-  color: #5a452f;
-}
+  .hero-welcome {
+    font-size: 22px;
+  }
 
-.disease-cta {
-  margin-top: 30px;
-}
+  .hero-tagline {
+    font-size: 18px;
+  }
 
+  .about-section {
+    grid-template-columns: 1fr;
+  }
+  
+}
