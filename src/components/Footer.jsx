@@ -41,17 +41,17 @@ export default function Footer() {
           <div className="footer-contact">
             <p>
               📞 Helpline:&nbsp;
-              <a href="tel:+919250588545">+91 92505 88545</a>
+              <a href="tel:+917355095660">+91 73550 95660</a>
             </p>
 
             <p>
               <i className="fa-brands fa-whatsapp"></i>&nbsp; WhatsApp:&nbsp;
               <a
-                href="https://wa.me/917355095660"
+                href="https://wa.me/919250588545"
                 target="_blank"
                 rel="noreferrer"
               >
-                +91 73550 95660
+                +91 92505 88545
               </a>
             </p>
 

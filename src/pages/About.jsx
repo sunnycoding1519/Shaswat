@@ -2,7 +2,7 @@ import "../style/About.css";
 
 // Images (replace later)
 import aboutBg from "../images/about-hero-bg.jpeg";     // background image
-import babaCutout from "../images/about-baba-cutout.png"; // baba ji cutout
+//import babaCutout from "../images/about-baba-cutout.png"; // baba ji cutout
 
 import shaswatImg from "../images/about-shaswat.jpg";
 import gurudevImg from "../images/gurudev.jpg";
@@ -32,9 +32,9 @@ const About = () => {
         </div>
 
         {/* Baba Ji Cutout */}
-        <div className="about-hero-cutout">
+        {/*<div className="about-hero-cutout">
           <img src={babaCutout} alt="Baba Swami Bhakti Prakash Ji" />
-        </div>
+        </div>*/}
       </section>
 
       {/* ================= SECTION 1 ================= */}

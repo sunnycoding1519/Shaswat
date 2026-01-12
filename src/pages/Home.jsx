@@ -1,8 +1,8 @@
 import "../style/Home.css";
-import heroImg from "../images/baba-hero.jpg";
+import heroImg from "../images/Meditation.jpg";
 import img1 from "../images/baba-1.jpg";
 import img2 from "../images/baba-2.jpg";
-import img3 from "../images/baba-3.jpg";
+import img3 from "../images/baba-hero.jpg";
 import img4 from "../images/baba-4.jpg";
 
 const Home = () => {

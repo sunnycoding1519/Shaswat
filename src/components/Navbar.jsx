@@ -26,14 +26,14 @@ return (
                 <li><a href="/Testimonials">Testimonials</a></li>
                 <li><a href="/Contact us">Contact us</a></li>
                 <li className="mobile-only phone">
-                    <a href="tel:9250588545">Helpline no.📞+91-9250588545</a>
+                    <a href="tel:9250588545">Helpline no.📞+91-7355095660</a>
                 </li>
             </ul>
 
             {/* RIGHT : PHONE */}
             <div className="nav-right">
-                <a href="tel:9250588545" className="nav-phone">
-                    📞 +91-9250588545
+                <a href="tel:7355095660" className="nav-phone">
+                    📞 +91-7355095660
                 </a>
 
                 <div

@@ -11,7 +11,7 @@ const centers = [
     image: "/Images/centers/center UP.jpeg",
     map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5975.778133642752!2d80.94156777770996!3d26.913884999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957c2c3d0fd13%3A0x871ab3b0fedf760!2sJankipuram%2C%20Lucknow!5e1!3m2!1sen!2sin!4v1767985897468!5m2!1sen!2sin"
   },
-  {
+  /*{
     id: 2,
     name: "Shashwat Chikitsa – Jaipur",
     address: "Vaishali Nagar, Jaipur, Rajasthan – 302021",
@@ -28,7 +28,7 @@ const centers = [
     timing: "Mon – Sat : 10:00 AM – 6:00 PM",
     image: "/Images/centers/delhi.jpg",
     map: "https://www.google.com/maps?q=Noida&output=embed"
-  }
+  }*/
 ];
 
 export default function Centers() {
@@ -103,6 +103,15 @@ export default function Centers() {
                   onChange={handleChange}
                   required
                 />
+                 <input
+                  type="text"
+                  name="City"
+                  placeholder="City"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                />
+
 
                 <textarea
                   name="message"
