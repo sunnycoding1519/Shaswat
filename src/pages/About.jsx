@@ -1,8 +1,8 @@
 import "../style/About.css";
 
 // Images (replace later)
-import aboutBg from "../images/about-hero-bg.jpeg";     // background image
-//import babaCutout from "../images/about-baba-cutout.png"; // baba ji cutout
+import aboutBg from "../images/about-hero-bg.jpeg";
+//import babaCutout from "../images/about-baba-cutout.png";
 
 import shaswatImg from "../images/about-shaswat.jpg";
 import gurudevImg from "../images/gurudev.jpg";
@@ -73,7 +73,9 @@ const About = () => {
         <div className="about-text">
           <h2>
             <span className="brown">हमारे प्रेरणा स्रोत</span>{" "}
-            <span className="black">गुरुदेव डॉ. गुणप्रकाश चैतन्य जी महाराज</span>
+            <span className="black">
+              गुरुदेव डॉ. गुणप्रकाश चैतन्य जी महाराज
+            </span>
           </h2>
 
           <p>
@@ -139,9 +141,7 @@ const About = () => {
             <li>भारत गौरव अवार्ड</li>
             <li>Visionary Leader Award</li>
             <li>देवभूमि राष्ट्रीय रत्न पुरस्कार</li>
-            <li>
-              चिन्नास्वामी हिंदुस्तान गगन गौरव अवॉर्ड 
-            </li>
+            <li>चिन्नास्वामी हिंदुस्तान गगन गौरव अवॉर्ड</li>
           </ul>
         </div>
 
@@ -150,7 +150,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* ================= SECTION 4 ================= */}
+      {/* ================= SECTION 4 (ONLY THIS IS UPDATED) ================= */}
       <section className="achievement-gallery">
         <h2>
           <span className="brown">Achievements</span>{" "}
@@ -158,8 +158,14 @@ const About = () => {
         </h2>
 
         <div className="gallery-slider">
-          {Array.from({ length: 10 }).map((_, i) => (
-            <div className="gallery-item" key={i}></div>
+          {Array.from({ length: 12 }).map((_, i) => (
+            <div className="gallery-item" key={i}>
+              <img
+                src={`/Images/certificates/Award ${i + 1}.jpeg`}
+                alt={`Award Certificate ${i + 1}`}
+                loading="lazy"
+              />
+            </div>
           ))}
         </div>
       </section>
