@@ -203,11 +203,13 @@
   transition: transform 0.3s ease;
 }
 
-/* ================= CLICK TO ZOOM (PURE CSS) ================= */
-.gallery-item img:active {
+/* ================= CLICK TO ZOOM (MOBILE SAFE) ================= */
+
+.gallery-item img:focus {
   position: fixed;
   top: 50%;
   left: 50%;
+
   width: 92vw;
   height: 92vh;
 
@@ -219,7 +221,14 @@
   cursor: zoom-out;
 
   box-shadow: 0 25px 70px rgba(0, 0, 0, 0.7);
+  outline: none;
 }
+
+/* tap outside / blur to close */
+.gallery-item img:focus:not(:focus-visible) {
+  outline: none;
+}
+
 
 /* ================= RESPONSIVE ================= */
 @media (max-width: 900px) {

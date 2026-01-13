@@ -164,6 +164,7 @@ const About = () => {
                 src={`/Images/certificates/Award ${i + 1}.jpeg`}
                 alt={`Award Certificate ${i + 1}`}
                 loading="lazy"
+                  tabIndex="0"
               />
             </div>
           ))}
