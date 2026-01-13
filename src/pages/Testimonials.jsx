@@ -79,6 +79,14 @@ const writtenTestimonials = [
   }
 ];
 
+// 🔹 helper (sirf scroll ke liye)
+const scrollToSection = (id) => {
+  document.getElementById(id)?.scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+};
+
 export default function Testimonials() {
   return (
     <section className="testimonials-page">
@@ -87,8 +95,20 @@ export default function Testimonials() {
         वास्तविक अनुभव जो शाश्वत चिकित्सा पर विश्वास बढ़ाते हैं
       </p>
 
+      {/* 🔹 SWITCH BUTTONS (ONLY THIS IS NEW) */}
+      <div className="testimonial-switch">
+        <button onClick={() => scrollToSection("video-testimonials")}>
+          🎥 Video Testimonials
+        </button>
+        <button onClick={() => scrollToSection("text-testimonials")}>
+          ✍️ Written Reviews
+        </button>
+      </div>
+
       {/* VIDEO TESTIMONIALS */}
-      <h3 className="section-heading">Video Testimonials</h3>
+      <h3 id="video-testimonials" className="section-heading">
+        Video Testimonials
+      </h3>
       <div className="video-grid">
         {videoTestimonials.map(video => (
           <div className="video-card" key={video.id}>
@@ -101,7 +121,9 @@ export default function Testimonials() {
       </div>
 
       {/* WRITTEN TESTIMONIALS */}
-      <h3 className="section-heading">Written Reviews</h3>
+      <h3 id="text-testimonials" className="section-heading">
+        Written Reviews
+      </h3>
       <div className="review-grid">
         {writtenTestimonials.map((item, index) => (
           <div className="review-card" key={index}>
