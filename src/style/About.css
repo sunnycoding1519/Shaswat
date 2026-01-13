@@ -52,7 +52,7 @@
 
 /* ================= HERO CUTOUT (DESKTOP FIX) ================= */
 .about-hero-cutout {
-  position: absolute;          /* 🔥 KEY FIX */
+  position: absolute;
   right: 4%;
   bottom: 0;
   z-index: 3;
@@ -195,40 +195,53 @@
 .gallery-item img {
   width: 100%;
   height: 100%;
-  object-fit: contain;          /* 🔥 full certificate visible */
+  object-fit: contain;
   background: #ffffff;
   border-radius: 14px;
-
   cursor: zoom-in;
-  transition: transform 0.3s ease;
 }
 
-/* ================= CLICK TO ZOOM (MOBILE SAFE) ================= */
-
-.gallery-item img:focus {
+/* ================= CERTIFICATE MODAL (FINAL FIX) ================= */
+.certificate-modal {
   position: fixed;
-  top: 50%;
-  left: 50%;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  z-index: 10000;
 
-  width: 92vw;
-  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
 
-  transform: translate(-50%, -50%);
-  z-index: 9999;
-
+.certificate-modal img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
   background: #ffffff;
   border-radius: 14px;
-  cursor: zoom-out;
-
-  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.7);
-  outline: none;
 }
 
-/* tap outside / blur to close */
-.gallery-item img:focus:not(:focus-visible) {
-  outline: none;
-}
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
 
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
 
 /* ================= RESPONSIVE ================= */
 @media (max-width: 900px) {
@@ -245,7 +258,7 @@
   }
 }
 
-/* ================= RESPONSIVE ================= */
+/* ================= HERO RESPONSIVE ================= */
 @media (max-width: 1024px) {
   .about-hero-cutout img {
     height: 380px;
@@ -259,7 +272,6 @@
     padding: 120px 20px 60px;
   }
 
-  /* 🔥 MOBILE CUTOUT RESET */
   .about-hero-cutout {
     position: relative;
     right: auto;

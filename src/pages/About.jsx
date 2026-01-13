@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "../style/About.css";
 
 // Images (replace later)
@@ -9,6 +10,9 @@ import gurudevImg from "../images/gurudev.jpg";
 import babaImg from "../images/baba-bio.jpg";
 
 const About = () => {
+  /* 🔥 ONLY FOR CERTIFICATE CUT / CLOSE FIX */
+  const [activeCert, setActiveCert] = useState(null);
+
   return (
     <main className="about-page">
 
@@ -150,7 +154,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* ================= SECTION 4 (ONLY THIS IS UPDATED) ================= */}
+      {/* ================= SECTION 4 (CERTIFICATE – CUT FIXED) ================= */}
       <section className="achievement-gallery">
         <h2>
           <span className="brown">Achievements</span>{" "}
@@ -158,18 +162,32 @@ const About = () => {
         </h2>
 
         <div className="gallery-slider">
-          {Array.from({ length: 12 }).map((_, i) => (
-            <div className="gallery-item" key={i}>
-              <img
-                src={`/Images/certificates/Award ${i + 1}.jpeg`}
-                alt={`Award Certificate ${i + 1}`}
-                loading="lazy"
-                  tabIndex="0"
-              />
-            </div>
-          ))}
+          {Array.from({ length: 12 }).map((_, i) => {
+            const imgSrc = `/Images/certificates/Award ${i + 1}.jpeg`;
+            return (
+              <div className="gallery-item" key={i}>
+                <img
+                  src={imgSrc}
+                  alt={`Award Certificate ${i + 1}`}
+                  loading="lazy"
+                  onClick={() => setActiveCert(imgSrc)}
+                />
+              </div>
+            );
+          })}
         </div>
       </section>
+
+      {/* ===== CERTIFICATE FULLSCREEN MODAL (CUT / BACK FIX) ===== */}
+      {activeCert && (
+        <div
+          className="certificate-modal"
+          onClick={() => setActiveCert(null)}
+        >
+          <span className="close-btn">✕</span>
+          <img src={activeCert} alt="Certificate Full View" />
+        </div>
+      )}
 
     </main>
   );
