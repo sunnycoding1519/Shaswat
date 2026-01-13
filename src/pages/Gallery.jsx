@@ -5,36 +5,40 @@ const gallerySections = [
     title: "Clinic Gallery",
     icon: "📸",
     images: [
-      "/Images/gallery/clinic1.jpg",
-      "/Images/gallery/clinic2.jpg",
-      "/Images/gallery/clinic3.jpg"
+      "/Images/gallery/clinical 1.jpeg",
+      "/Images/gallery/clinical 2.jpeg",
+      "/Images/gallery/clinical 3.jpeg",
+      "/Images/gallery/clinical 4.jpeg"
     ]
   },
   {
-    title: "Panchakarma / Therapy Sessions",
+    title: "Therapy Sessions",
     icon: "🧘",
     images: [
-      "/Images/gallery/therapy1.jpg",
-      "/Images/gallery/therapy2.jpg",
-      "/Images/gallery/therapy3.jpg"
+      "/Images/gallery/Therapy 1.jpeg",
+      "/Images/gallery/Therapy 2.jpeg",
+      "/Images/gallery/Therapy 3.jpeg"
     ]
   },
   {
-    title: "Events & Satsang",
+    title: "Events",
     icon: "🎤",
     images: [
       "/Images/gallery/event1.jpeg",
       "/Images/gallery/event2.jpeg",
-      "/Images/gallery/event3.jpg"
+      "/Images/gallery/event 3.jpeg",
+      "/Images/gallery/event 4.jpeg"
     ]
   },
   {
-    title: "Doctor / Guru Ji Moments",
+    title: "Guru Ji Moments",
     icon: "👨‍⚕️",
     images: [
-      "/Images/gallery/guru1.jpg",
-      "/Images/gallery/guru2.jpg",
-      "/Images/gallery/guru3.jpg"
+      "/Images/gallery/moment 1.jpeg",
+      "/Images/gallery/Moment 2.jpeg",
+      "/Images/gallery/Moment 3.jpeg",
+      "/Images/gallery/moment 4.jpeg",
+      "/Images/gallery/moment 5.jpeg"
     ]
   }
 ];

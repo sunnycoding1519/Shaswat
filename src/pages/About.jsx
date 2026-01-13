@@ -134,14 +134,13 @@ const About = () => {
           <h3 className="sub-heading">सम्मान एवं उपलब्धियाँ</h3>
 
           <ul className="achievement-list">
-            <li>मानद डॉक्टरेट उपाधि – 22 जून 2024</li>
-            <li>International Gaurav Award – 22 जून 2024</li>
-            <li>भारत गौरव अवार्ड – 20 अप्रैल 2025</li>
-            <li>Visionary Leader Award – 24 मई 2025</li>
-            <li>देवभूमि राष्ट्रीय रत्न पुरस्कार – 05 जुलाई 2025</li>
+            <li>मानद डॉक्टरेट उपाधि </li>
+            <li>International Gaurav Award</li>
+            <li>भारत गौरव अवार्ड</li>
+            <li>Visionary Leader Award</li>
+            <li>देवभूमि राष्ट्रीय रत्न पुरस्कार</li>
             <li>
-              चिन्नास्वामी हिंदुस्तान गगन गौरव अवॉर्ड –
-              24 दिसंबर 2025
+              चिन्नास्वामी हिंदुस्तान गगन गौरव अवॉर्ड 
             </li>
           </ul>
         </div>

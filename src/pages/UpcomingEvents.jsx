@@ -14,7 +14,7 @@ const events = [
     description:
       "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles."
   },
-  {
+  /*{
     id: 2,
     title: "Panchakarma Awareness Program",
     location: "Jaipur, Rajasthan",
@@ -53,7 +53,7 @@ const events = [
     image: "/Images/events/event5.jpg",
     description:
       "Experience pulse diagnosis and holistic health assessment through Nadi Chikitsa."
-  }
+  }*/
 ];
 
 export default function UpcomingEvents() {
