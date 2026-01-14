@@ -137,7 +137,7 @@ const About = () => {
             समाज सेवा में समर्पित हैं।
           </p>
 
-          <h3 className="sub-heading">सम्मान एवं उपलब्धियाँ</h3>
+          <h3 className="sub-heading"></h3>
 
           <ul className="achievement-list">
             <li>Angiras Research Of Shashwat Healing Foundation (Director) </li>
