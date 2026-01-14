@@ -140,12 +140,10 @@ const About = () => {
           <h3 className="sub-heading">सम्मान एवं उपलब्धियाँ</h3>
 
           <ul className="achievement-list">
-            <li>मानद डॉक्टरेट उपाधि </li>
-            <li>International Gaurav Award</li>
-            <li>भारत गौरव अवार्ड</li>
-            <li>Visionary Leader Award</li>
-            <li>देवभूमि राष्ट्रीय रत्न पुरस्कार</li>
-            <li>चिन्नास्वामी हिंदुस्तान गगन गौरव अवॉर्ड</li>
+            <li>Angiras Research Of Shashwat Healing Foundation (Director) </li>
+            <li>Deshi Aspatal Pvt Ltd Delhi (Co-Director)</li>
+            <li>KDU Natural Pvt Ltd (Co-Director)</li>
+            <li>Mahila Swavlamban Trust (President)</li>
           </ul>
         </div>
 

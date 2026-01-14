@@ -2,7 +2,7 @@ import "../style/Gallery.css";
 
 const gallerySections = [
   {
-    title: "Clinic Gallery",
+    title: "Event Gallery",
     icon: "📸",
     images: [
       "/Images/gallery/clinical 1.jpeg",
