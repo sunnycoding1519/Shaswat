@@ -41,7 +41,7 @@
 .about-hero-content h1 {
   font-size: 48px;
   line-height: 1.2;
-  margin-bottom: 18px;
+  margin-bottom: 27px;
 }
 
 .about-hero-content p {
@@ -49,6 +49,7 @@
   line-height: 1.7;
   color: #f4e9d8;
 }
+
 
 /* ================= HERO CUTOUT (DESKTOP FIX) ================= */
 .about-hero-cutout {
@@ -313,3 +314,10 @@
     height: 160px;
   }
 }
+/* ================= MOBILE HERO TEXT POSITION FIX (ONLY TEXT) ================= */
+@media (max-width: 768px) {
+  .about-hero-content {
+    margin-top: -405px;   /* text ko thoda upar laata hai */
+  }
+}
+
