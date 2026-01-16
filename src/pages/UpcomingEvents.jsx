@@ -14,17 +14,17 @@ const events = [
     description:
       "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles."
   },
-  /*{
+  {
     id: 2,
-    title: "Panchakarma Awareness Program",
-    location: "Jaipur, Rajasthan",
-    date: "22 March 2026",
-    speaker: "Ayurveda Expert Team",
-    image: "/Images/events/event2.jpg",
+    title: "Shashwat Chikitsa Shivir",
+    location: "NR BRTS ROAD,OPP.ASHADEEP SCIENCE SCHOOL,AKAR SOCIETY,SIMDA NAKA,VARACHA ROAD,SURAT,GUJARAT",
+    date: "19-20 JAN 2026",
+    speaker: "DR. Swami Bhakti Prakash Ji",
+    image: "/Images/events/upcoming event2.jpeg",
     description:
       "Learn the importance of Panchakarma therapy and its role in detoxification and rejuvenation."
   },
-  {
+  /*{
     id: 3,
     title: "Water Healing Therapy Workshop",
     location: "Online (Live)",
