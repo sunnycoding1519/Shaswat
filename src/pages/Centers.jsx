@@ -12,13 +12,14 @@ const centers = [
     timing: "Mon – Sat : 8:00 AM – 4:00 PM",
     image: "/Images/centers/center UP.jpeg",
     map:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5975.778133642752!2d80.94156777770996!3d26.913884999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957c2c3d0fd13%3A0x871ab3b0fedf760!2sJankipuram%2C%20Lucknow!5e1!3m2!1sen!2sin!4v1767985897468!5m2!1sen!2sin"
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5975.778133642752!2d80.94156777770996!3d26.913884999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957c2c3d0fd13%3A0x871ab3b0fedf760!2sJankipuram%2C%20Lucknow!5e1!3m2!1sen!2sin!4v1767985897468!5m2!1sen!2sin",
+    scripturl:
+      "https://script.google.com/macros/s/AKfycbxaI8p4I87OKFh9eEsr9lPkqAQTlIqBNTlwdnL3n0B1gx_492vTKswJdvR2i1s288O5/exec"
   }
   // future centers yahin add honge
 ];
 
 export default function Centers() {
-  // 🔹 ONLY NEW STATE (dropdown ke liye)
   const [selectedCity, setSelectedCity] = useState(centers[0].city);
 
   const [formData, setFormData] = useState({
@@ -27,14 +28,32 @@ export default function Centers() {
     message: ""
   });
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e, centerName) => {
+  // ✅ ONLY REQUIRED UPDATE (fetch added)
+  const handleSubmit = (e, center) => {
     e.preventDefault();
-    alert(`Enquiry sent for ${centerName}`);
-    setFormData({ name: "", phone: "", message: "" });
+
+    fetch(center.scripturl, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      body: new URLSearchParams({
+        name: formData.name,
+        phone: formData.phone,
+        message: formData.message
+      })
+    })
+      .then(() => {
+        alert(`Enquiry sent for ${center.name}`);
+        setFormData({ name: "", phone: "", message: "" });
+      })
+      .catch(() => {
+        alert("Something went wrong");
+      });
   };
 
   return (
@@ -44,13 +63,13 @@ export default function Centers() {
         भारत के विभिन्न स्थानों पर उपलब्ध शाश्वत चिकित्सा केंद्र
       </p>
 
-      {/* ✅ ONLY NEW UI : CITY DROPDOWN */}
+      {/* CITY DROPDOWN */}
       <div className="center-filter">
         <select
           value={selectedCity}
           onChange={(e) => setSelectedCity(e.target.value)}
         >
-          {centers.map(center => (
+          {centers.map((center) => (
             <option key={center.id} value={center.city}>
               {center.city}
             </option>
@@ -60,16 +79,22 @@ export default function Centers() {
 
       <div className="centers-grid">
         {centers
-          .filter(center => center.city === selectedCity)
-          .map(center => (
+          .filter((center) => center.city === selectedCity)
+          .map((center) => (
             <div className="center-card" key={center.id}>
               {/* LEFT */}
               <div className="center-left">
                 <img src={center.image} alt={center.name} />
                 <h3>📍 {center.name}</h3>
-                <p><strong>🏥 Address:</strong> {center.address}</p>
-                <p><strong>📞 Contact:</strong> {center.phone}</p>
-                <p><strong>🕒 Timing:</strong> {center.timing}</p>
+                <p>
+                  <strong>🏥 Address:</strong> {center.address}
+                </p>
+                <p>
+                  <strong>📞 Contact:</strong> {center.phone}
+                </p>
+                <p>
+                  <strong>🕒 Timing:</strong> {center.timing}
+                </p>
               </div>
 
               {/* RIGHT */}
@@ -82,7 +107,7 @@ export default function Centers() {
 
                 <form
                   className="enquiry-form"
-                  onSubmit={(e) => handleSubmit(e, center.name)}
+                  onSubmit={(e) => handleSubmit(e, center)}
                 >
                   <h4>Center Enquiry</h4>
 
