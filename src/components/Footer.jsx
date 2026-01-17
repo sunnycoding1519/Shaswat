@@ -8,7 +8,7 @@ export default function Footer() {
         {/* BRAND */}
         <div className="footer-brand">
           <img
-            src="/Images/shaswat logo.png"
+            src="/Images/sww-modified.png"
             alt="Shashwat Chikitsa Logo"
             className="footer-logo"
           />

@@ -1,10 +1,31 @@
 import "../style/Testimonials.css";
 
-const videoTestimonials = Array.from({ length: 15 }, (_, i) => ({
-  id: i + 1,
-  title: `Patient Testimonial ${i + 1}`,
-  video: `/Images/testimonials/video${i + 1}.mp4`
-}));
+const videoTestimonials = [
+  {
+    id: 1,
+    title: "Patient Testimonial 1",
+    type: "youtube",
+    video: "https://www.youtube.com/embed/8nEIP8dkF3s"
+  },
+  {
+    id: 2,
+    title: "Patient Testimonial 2",
+    type: "youtube",
+    video: "https://www.youtube.com/embed/bNkUXqaFjrQ"
+  },
+  {
+    id: 3,
+    title: "Patient Testimonial 3",
+    type: "youtube",
+    video: "https://www.youtube.com/embed/Wq0dDYTy7LY"
+  },
+  {
+    id: 4,
+    title: "Patient Testimonial 4",
+    type: "youtube",
+    video: "https://www.youtube.com/embed//asPK5Uke6X4"
+  }
+];
 
 const writtenTestimonials = [
   {
@@ -79,7 +100,7 @@ const writtenTestimonials = [
   }
 ];
 
-// 🔹 helper (sirf scroll ke liye)
+// 🔹 helper (scroll only)
 const scrollToSection = (id) => {
   document.getElementById(id)?.scrollIntoView({
     behavior: "smooth",
@@ -95,7 +116,7 @@ export default function Testimonials() {
         वास्तविक अनुभव जो शाश्वत चिकित्सा पर विश्वास बढ़ाते हैं
       </p>
 
-      {/* 🔹 SWITCH BUTTONS (ONLY THIS IS NEW) */}
+      {/* SWITCH BUTTONS */}
       <div className="testimonial-switch">
         <button onClick={() => scrollToSection("video-testimonials")}>
           🎥 Video Testimonials
@@ -109,12 +130,25 @@ export default function Testimonials() {
       <h3 id="video-testimonials" className="section-heading">
         Video Testimonials
       </h3>
+
       <div className="video-grid">
         {videoTestimonials.map(video => (
           <div className="video-card" key={video.id}>
-            <video controls>
-              <source src={video.video} type="video/mp4" />
-            </video>
+            
+            {video.type === "youtube" ? (
+              <iframe
+                src={video.video}
+                title={video.title}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            ) : (
+              <video controls>
+                <source src={video.video} type="video/mp4" />
+              </video>
+            )}
+
             <p>{video.title}</p>
           </div>
         ))}
@@ -124,15 +158,14 @@ export default function Testimonials() {
       <h3 id="text-testimonials" className="section-heading">
         Written Reviews
       </h3>
+
       <div className="review-grid">
         {writtenTestimonials.map((item, index) => (
           <div className="review-card" key={index}>
             <h4>👤 {item.name}</h4>
             <p className="city">🏙️ {item.city}</p>
             <p className="experience">💬 {item.experience}</p>
-            <p className="rating">
-              {"⭐".repeat(item.rating)}
-            </p>
+            <p className="rating">{"⭐".repeat(item.rating)}</p>
           </div>
         ))}
       </div>
