@@ -64,27 +64,52 @@ export default function Footer() {
           </div>
 
           {/* SOCIAL ICONS */}
-          <div className="social-icons">
-            <a href="#" aria-label="YouTube">
-              <i className="fa-brands fa-youtube"></i>
-            </a>
+<div className="social-icons">
+  <a
+    href="https://youtube.com/@shashwat.chikitsa?si=9jR7a1uTAfBpRc3V"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="YouTube"
+  >
+    <i className="fa-brands fa-youtube"></i>
+  </a>
 
-            <a href="#" aria-label="Instagram">
-              <i className="fa-brands fa-instagram"></i>
-            </a>
+  <a
+    href="https://www.instagram.com/shaswat_chiktisha?igsh=OWlzNjA3YmNxMnlo"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Instagram"
+  >
+    <i className="fa-brands fa-instagram"></i>
+  </a>
 
-            <a href="#" aria-label="Facebook">
-              <i className="fa-brands fa-facebook-f"></i>
-            </a>
+  <a
+    href="https://www.facebook.com/share/181bxeux7c/"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Facebook"
+  >
+    <i className="fa-brands fa-facebook-f"></i>
+  </a>
 
-            <a href="#" aria-label="WhatsApp">
-              <i className="fa-brands fa-whatsapp"></i>
-            </a>
+  <a
+    href="https://wa.me/917355095660"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="WhatsApp"
+  >
+    <i className="fa-brands fa-whatsapp"></i>
+  </a>
 
-            <a href="#" aria-label="X">
-              <i className="fa-brands fa-x-twitter"></i>
-            </a>
-          </div>
+  <a
+    href="https://x.com/BhaktiPrak15806"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="X"
+  >
+    <i className="fa-brands fa-x-twitter"></i>
+  </a>
+</div>
 
           <p className="social-note">
             Follow us for updates, healing insights & events
