@@ -27,8 +27,8 @@ const centers = [
     image: "/Images/centers/center 2.jpeg",
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3573.1136728657007!2d74.6180165!3d26.41980805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be0ca268ef1bb%3A0xd5ce70f16947a2e!2sKishanpura%2C%20Chandra%20Vardai%20Nagar%2C%20Ajmer%2C%20Rajasthan%20305003!5e0!3m2!1sen!2sin!4v1768834469547!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border: 0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
-    
-    
+    scripturl:
+      "https://script.google.com/macros/s/AKfycbzlf7w0rtA48x_dnZD_zirl4SGQ94j6bxotxpXKbWrQZYx6c6h70iPm7G9lbrOiy2KPdA/exec"
   }
 ];
 
