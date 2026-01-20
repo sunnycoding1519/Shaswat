@@ -4,7 +4,7 @@ const announcementText =
   "📢 Upcoming Healing Camps, Satsang & Training Programs – Stay Connected with Shashwat Chikitsa";
 
 const events = [
-  {
+  /*{
     id: 1,
     title: "Shashwat Chikitsa Shivir",
     location: "Terapanth Seva Samaj, Ahmedabad, Gujarat",
@@ -13,7 +13,7 @@ const events = [
     image: "/Images/events/event GJ.jpeg",
     description:
       "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles."
-  },
+  },*/
   {
     id: 2,
     title: "Shashwat Chikitsa Shivir",
