@@ -13,7 +13,7 @@ const events = [
     image: "/Images/events/event GJ.jpeg",
     description:
       "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles."
-  },*/
+  },*/        
   {
     id: 2,
     title: "Shashwat Chikitsa Shivir",
