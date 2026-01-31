@@ -33,7 +33,7 @@ const centers = [
   {
     id: 3,
     city: "Kanpur",
-    name: "Shashwat Chikitsa Kendra – Kanpur",
+    name: "Panchvidhi Shashwat Chikitsa Kendra – Kanpur",
     address:
       "M.I.G-8,Barra-6,Kanpur Nagar(UP)– 208027",
     phone: "Dr.Anoop Kushwaha (+91 9559906407)",
