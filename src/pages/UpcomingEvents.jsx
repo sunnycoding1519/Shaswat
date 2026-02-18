@@ -4,16 +4,17 @@ const announcementText =
   "📢 Upcoming Healing Camps, Satsang & Training Programs – Stay Connected with Shashwat Chikitsa";
 
 const events = [
-  /*{
+  {
     id: 1,
     title: "Shashwat Chikitsa Shivir",
-    location: "Terapanth Seva Samaj, Ahmedabad, Gujarat",
-    date: "16 to 18 january 2026",
+    location: "Jawahar Lal Nehru Rashtriya Yuva Kendr,Near Bara Imambara, Rumi Gate ,Lucknow-226003, Uttar Pradesh",
+    date: "1 to 2 March 2026",
+    Time: "10:00 AM to 5:00 PM",
     speaker: "Dr. Swami Bhakti Prakash Ji",
-    image: "/Images/events/event GJ.jpeg",
+    image: "/Images/events/lucnow.jpeg",
     description:
       "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles."
-  },*/        
+  },        
   {
     id: 2,
     title: "Shashwat Chikitsa Shivir",
