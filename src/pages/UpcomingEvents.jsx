@@ -11,7 +11,7 @@ const events = [
     date: "1 to 2 March 2026",
     Time: "10:00 AM to 5:00 PM",
     speaker: "Dr. Swami Bhakti Prakash Ji",
-    image: "/Images/events/lucnow.jpeg",
+    image: "/Images/events/lucnow .jpeg",
     description:
       "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles."
   },        
