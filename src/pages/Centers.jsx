@@ -43,6 +43,17 @@ const centers = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5975.778133642752!2d80.94156777770996!3d26.913884999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957c2c3d0fd13%3A0x871ab3b0fedf760!2sJankipuram%2C%20Lucknow!5e1!3m2!1sen!2sin!4v1767985897468!5m2!1sen!2sin",
     scripturl:
       "https://script.google.com/macros/s/AKfycbxaI8p4I87OKFh9eEsr9lPkqAQTlIqBNTlwdnL3n0B1gx_492vTKswJdvR2i1s288O5/exec"*/
+  },
+  {
+    id: 4,
+    city: "Gajiyabadh",
+    name: "Shashwat Chikitsa Kendra – Gajiyabadh",
+    address: "42-g,Nyay Khand-3,Indirapuram,Gajiyabadh(UP)– 201014",
+    phone: "Dr.Swami Bhakti Parkash(+91 9711147989/+91 9312158400)",
+    timing: "Mon – Sat : 8:00 AM – 4:00 PM",
+    image: "/Images/centers/Gajiyabadh.jpeg",
+    /*map:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5975.778133642752!2d80.94156777770996!3d26.913884999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957c2c3d0fd13%3A0x871ab3b0fedf760!2sJankipuram%2C%20Lucknow!5e1*/
   }
 ];
 
