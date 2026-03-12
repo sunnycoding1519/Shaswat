@@ -4,7 +4,7 @@ const announcementText =
   "📢 Upcoming Healing Camps, Satsang & Training Programs – Stay Connected with Shashwat Chikitsa";
 
 const events = [
-  {
+  /*{
     id: 1,
     title: "Shashwat Chikitsa Shivir",
     location: "Jawahar Lal Nehru Rashtriya Yuva Kendr,Near Bara Imambara, Rumi Gate ,Lucknow-226003, Uttar Pradesh",
@@ -24,7 +24,7 @@ const events = [
     image: "/Images/events/upcoming event2.jpeg",
     description:
       "Learn the importance of Panchakarma therapy and its role in detoxification and rejuvenation."
-  },
+  },8*/
   {
     id: 3,
     title: "Shashwat Chikitsa Shivir",

@@ -46,9 +46,9 @@ const centers = [
   },
   {
     id: 4,
-    city: "Ghaziabadh",
-    name: "Shashwat Chikitsa Kendra – Ghaziabadh",
-    address: "42-g,Nyay Khand-3,Indirapuram,Ghaziabadh(UP)– 201014",
+    city: "Ghaziabad",
+    name: "Shashwat Chikitsa Kendra – Ghaziabad",
+    address: "42-g,Nyay Khand-3,Indirapuram,Ghaziabad(UP)– 201014",
     phone: "Dr.Swami Bhakti Parkash(+91 9711147989/+91 9312158400)",
     timing: "Mon – Sat : 8:00 AM – 4:00 PM",
     image: "/Images/centers/Gajiyabadh.jpeg",
