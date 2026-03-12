@@ -25,17 +25,17 @@ const events = [
     description:
       "Learn the importance of Panchakarma therapy and its role in detoxification and rejuvenation."
   },
-  /*{
-    id: 3,
-    title: "Water Healing Therapy Workshop",
-    location: "Online (Live)",
-    date: "30 March 2026",
-    speaker: "Dr. Swami Bhakti Prakash Ji",
-    image: "/Images/events/event3.jpg",
-    description:
-      "An online workshop explaining the power of energized water and healing through awareness."
-  },
   {
+    id: 3,
+    title: "Shashwat Chikitsa Shivir",
+    location: "Chaukadika Dharmshala(Bjaj Road),Sikar, Rajasthan-332001",
+    date: "13-14 March 2026  (10:00 AM to 1:00 PM & 4:00 PM to 7:00 PM)",
+    speaker: "Dr. Swami Bhakti Prakash Ji",
+    image: "/Images/events/Chaukdika center.jpeg",
+    description:
+      "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles"
+  },
+ /* {
     id: 4,
     title: "Hormonal Balance Guidance Session",
     location: "Delhi NCR",
