@@ -28,7 +28,7 @@ const events = [
   {
     id: 3,
     title: "Shashwat Chikitsa Shivir",
-    location: "Chaukadika Dharmshala(Bjaj Road),Sikar, Rajasthan-332001",
+    location: "Chaukadika Dharmshala(Bjaj Road),Sikar, Rajasthan-332001 (ph: +91 9756647642)",
     date: "13-14 March 2026  (10:00 AM to 1:00 PM & 4:00 PM to 7:00 PM)",
     speaker: "Dr. Swami Bhakti Prakash Ji",
     image: "/Images/events/Chaukdika center.jpeg",
