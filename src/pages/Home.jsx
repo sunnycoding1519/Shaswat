@@ -81,6 +81,30 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="counter-section">
+  <div className="stats-wrapper">
+
+    <div className="stat-box">
+      <div className="stat-icon">🧘</div>
+      <h3 className="counter">20+</h3>
+      <span>Experience Healer</span>
+    </div>
+
+    <div className="stat-box">
+      <div className="stat-icon">😊</div>
+      <h3 className="counter">10000+</h3>
+      <span>Patients Recovered</span>
+    </div>
+
+    <div className="stat-box">
+      <div className="stat-icon">🏥</div>
+      <h3 className="counter">10+</h3>
+      <span>Centers</span>
+    </div>
+
+  </div>
+</section>
+
       {/* ================= DISEASES ================= */}
       <section className="disease-section">
         <h2>किन रोगों में शाश्वत चिकित्सा प्रभावी है?</h2>
