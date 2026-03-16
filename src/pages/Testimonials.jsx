@@ -97,6 +97,13 @@ const writtenTestimonials = [
     experience:
       "Healing here feels personal and long-lasting.",
     rating: 5
+  },
+  {
+    name: "Rupal",
+    city: "Ahmedabad",
+    experience:
+      "Amazing Shashwat Healing class Guruji shared deep knowledge very simply.",
+    rating: 5
   }
 ];
 
