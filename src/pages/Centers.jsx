@@ -54,6 +54,17 @@ const centers = [
     image: "/Images/centers/Gajiyabadh.jpeg",
     /*map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5975.778133642752!2d80.94156777770996!3d26.913884999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957c2c3d0fd13%3A0x871ab3b0fedf760!2sJankipuram%2C%20Lucknow!5e1*/
+  },
+  {
+    id: 5,
+    city: "Nagpur",
+    name: "Shashwat Chikitsa Kendra – Nagpur",
+    address: "Basement Shop no.3,Amar jyoti complex, Near Metro scan Pathology lab, Wardha Road,Dhantoli, Nagpur-440012",
+    phone: "(+91 9607395252/+91 7709856858)",
+    timing: "Mon – Sat : 8:00 AM – 4:00 PM",
+    image: "/Images/centers/nagpur.jpeg",
+    /*map:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5975.778133642752!2d80.94156777770996!3d26.913884999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957c2c3d0fd13%3A0x871ab3b0fedf760!2sJankipuram%2C%20Lucknow!5e1*/
   }
 ];
 
