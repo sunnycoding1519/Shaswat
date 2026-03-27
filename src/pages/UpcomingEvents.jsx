@@ -4,18 +4,18 @@ const announcementText =
   "📢 Upcoming Healing Camps, Satsang & Training Programs – Stay Connected with Shashwat Chikitsa";
 
 const events = [
-  /*{
+  {
     id: 1,
     title: "Shashwat Chikitsa Shivir",
     location: "Jawahar Lal Nehru Rashtriya Yuva Kendr,Near Bara Imambara, Rumi Gate ,Lucknow-226003, Uttar Pradesh",
     date: "1 to 2 March 2026",
     Time: "10:00 AM to 5:00 PM",
     speaker: "Dr. Swami Bhakti Prakash Ji",
-    image: "/Images/events/lucnow .jpeg",
+    image: "/Images/events/lucnow.jpeg",
     description:
       "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles."
   },        
-  {
+  /*{
     id: 2,
     title: "Shashwat Chikitsa Shivir",
     location: "NR BRTS ROAD,OPP.ASHADEEP SCIENCE SCHOOL,AKAR SOCIETY,SIMDA NAKA,VARACHA ROAD,SURAT,GUJARAT",
@@ -25,7 +25,7 @@ const events = [
     description:
       "Learn the importance of Panchakarma therapy and its role in detoxification and rejuvenation."
   },8*/
-  {
+  /*{
     id: 3,
     title: "Shashwat Chikitsa Shivir",
     location: "Chaukadika Dharmshala(Bjaj Road),Sikar, Rajasthan-332001 (ph: +91 9756647642)",
@@ -34,7 +34,7 @@ const events = [
     image: "/Images/events/Chaukdika center.jpeg",
     description:
       "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles"
-  },
+  },*/
  /* {
     id: 4,
     title: "Hormonal Balance Guidance Session",
