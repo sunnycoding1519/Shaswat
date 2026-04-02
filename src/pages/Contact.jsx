@@ -75,6 +75,10 @@ export default function Contact() {
           <p>
             <a href="tel:+917355095660">+91 73550 95660</a>
           </p>
+          <h3>📞 Phone</h3>
+          <p>
+            <a href="tel:+919250588545">+91 9250588545</a>
+          </p>
 
           <h3>💬 WhatsApp</h3>
           <a
