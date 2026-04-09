@@ -123,7 +123,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        © 2026 All Rights Reserved | Shashwat Chikitsa Group (sunnycoding1915)
+        © 2026 All Rights Reserved | Shashwat Chikitsa Group and NextGen Business Agencey
       </div>
     </footer>
   );
