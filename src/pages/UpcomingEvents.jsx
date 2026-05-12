@@ -7,11 +7,11 @@ const events = [
   {
     id: 1,
     title: "Shashwat Chikitsa Shivir",
-    location: "Jawahar Lal Nehru Rashtriya Yuva Kendr,Near Bara Imambara, Rumi Gate ,Lucknow-226003, Uttar Pradesh",
-    date: "1 to 2 March 2026",
+    location: "7 Tropical Drive,Zobra The Buddha,MG Road,Near Chitomi Metro Station,Delhi",
+    date: "11 to 14 June 2026",
     Time: "10:00 AM to 5:00 PM",
     speaker: "Dr. Swami Bhakti Prakash Ji",
-    image: "/Images/events/lucnow.jpeg",
+    image: "/Images/events/delhi event 1.jpeg",
     description:
       "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles."
   },        
