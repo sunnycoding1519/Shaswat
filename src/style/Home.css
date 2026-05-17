@@ -217,41 +217,54 @@
   font-size:16px;
   color:#3b2f23;
 }
-/* ================= EBOOK SECTION ================= */
-
 .ebook-section{
   width:100%;
   padding:90px 8%;
-  background:#f7f8f3;
+  background:#f5f6f1;
 }
 
 .ebook-container{
+  max-width:1200px;
+  margin:auto;
   display:flex;
   align-items:center;
   justify-content:center;
-  gap:60px;
+  gap:80px;
   flex-wrap:wrap;
 }
 
 .ebook-image{
-  width:320px;
-  height:420px;
-  border-radius:20px;
-  background:#d9d9d9;
-  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+  flex:1;
+  min-width:320px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.ebook-image img{
+  width:100%;
+  max-width:420px;
+  height:auto;
+  object-fit:contain;
+  filter:drop-shadow(0 15px 30px rgba(0,0,0,0.18));
+  transition:0.4s ease;
+}
+
+.ebook-image img:hover{
+  transform:translateY(-8px) scale(1.02);
 }
 
 .ebook-content{
   flex:1;
-  min-width:300px;
-  max-width:600px;
+  min-width:320px;
+  max-width:550px;
 }
 
 .ebook-tag{
   display:inline-block;
   padding:8px 18px;
   background:#dff4df;
-  color:#1f7a1f;
+  color:#1d7a1d;
   border-radius:30px;
   font-size:14px;
   font-weight:600;
@@ -259,15 +272,16 @@
 }
 
 .ebook-content h2{
-  font-size:42px;
-  color:#17351f;
-  margin-bottom:20px;
+  font-size:52px;
   line-height:1.2;
+  color:#17351f;
+  margin-bottom:25px;
+  font-weight:700;
 }
 
 .ebook-content p{
   font-size:18px;
-  line-height:1.8;
+  line-height:1.9;
   color:#444;
   margin-bottom:25px;
 }
@@ -279,21 +293,22 @@
 }
 
 .ebook-points li{
-  font-size:17px;
-  margin-bottom:12px;
+  font-size:18px;
   color:#222;
+  margin-bottom:15px;
 }
 
 .ebook-btn{
   display:inline-block;
-  padding:15px 35px;
-  background:#1f7a1f;
+  padding:16px 38px;
+  background:#1d7a1d;
   color:#fff;
   text-decoration:none;
-  border-radius:10px;
+  border-radius:12px;
   font-size:18px;
   font-weight:600;
-  transition:0.3s;
+  transition:0.3s ease;
+  box-shadow:0 10px 25px rgba(29,122,29,0.25);
 }
 
 .ebook-btn:hover{
@@ -301,27 +316,36 @@
   transform:translateY(-3px);
 }
 
-/* ================= RESPONSIVE ================= */
+/* ================= MOBILE ================= */
 
 @media(max-width:768px){
 
+  .ebook-section{
+    padding:70px 5%;
+  }
+
+  .ebook-container{
+    gap:40px;
+  }
+
+  .ebook-content{
+    text-align:center;
+  }
+
   .ebook-content h2{
-    font-size:32px;
+    font-size:38px;
   }
 
   .ebook-content p{
     font-size:16px;
   }
 
-  .ebook-image{
-    width:260px;
-    height:350px;
+  .ebook-points li{
+    font-size:16px;
   }
 
-}
-.ebook-image img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  border-radius:20px;
+  .ebook-image img{
+    max-width:300px;
+  }
+
 }
