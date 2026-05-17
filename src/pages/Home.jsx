@@ -207,7 +207,7 @@ const Home = () => {
       </ul>
 
       <a
-        href="YOUR_DRIVE_LINK"
+        href="https://cosmofeed.com/vp/69eaed6fba5f160013fbfa0a"
         target="_blank"
         rel="noopener noreferrer"
         className="ebook-btn"
