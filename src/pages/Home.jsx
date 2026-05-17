@@ -4,7 +4,7 @@ import img1 from "../images/baba-1.jpg";
 import img2 from "../images/baba-2.jpg";
 import img3 from "../images/baba-hero.jpg";
 import img4 from "../images/baba-4.jpg";
-
+import ebookImg from "../images/e book.png";
 const Home = () => {
   return (
     <main className="home">
@@ -175,6 +175,51 @@ const Home = () => {
           </a>
         </div>
       </section>
+      {/* ================= EBOOK SECTION ================= */}
+<section className="ebook-section">
+
+  <div className="ebook-container">
+<div className="ebook-image">
+  <img src={ebookImg} alt="Ebook" />
+</div>
+    {/* RIGHT CONTENT SECTION */}
+    <div className="ebook-content">
+
+      <span className="ebook-tag">
+         Healing E-Book
+      </span>
+
+      <h2>
+        शाश्वत चिकित्सा E-Book
+      </h2>
+
+      <p>
+        इस विशेष E-Book में जानिए प्राकृतिक चिकित्सा,
+        पंचतत्त्व संतुलन, जल चिकित्सा,
+        शरीर शुद्धि एवं रोगों के मूल कारणों के बारे में।
+      </p>
+
+      <ul className="ebook-points">
+        <li>✔ प्राकृतिक उपचार विधियाँ</li>
+        <li>✔ जल चिकित्सा के रहस्य</li>
+        <li>✔ रोगों का मूल कारण</li>
+        <li>✔ शरीर को प्राकृतिक रूप से स्वस्थ बनाना</li>
+      </ul>
+
+      <a
+        href="YOUR_DRIVE_LINK"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="ebook-btn"
+      >
+        Download Now
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
 
     </main>
   );
