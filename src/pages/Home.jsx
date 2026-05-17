@@ -5,6 +5,7 @@ import img2 from "../images/baba-2.jpg";
 import img3 from "../images/baba-hero.jpg";
 import img4 from "../images/baba-4.jpg";
 import ebookImg from "../images/e book.png";
+import waterBookImg from "../images/water healing.png";
 const Home = () => {
   return (
     <main className="home">
@@ -175,18 +176,20 @@ const Home = () => {
           </a>
         </div>
       </section>
-      {/* ================= EBOOK SECTION ================= */}
+     {/* ================= EBOOK SECTION ================= */}
 <section className="ebook-section">
 
+  {/* ===== FIRST BOOK ===== */}
   <div className="ebook-container">
-<div className="ebook-image">
-  <img src={ebookImg} alt="Ebook" />
-</div>
-    {/* RIGHT CONTENT SECTION */}
+
+    <div className="ebook-image">
+      <img src={ebookImg} alt="Ebook" />
+    </div>
+
     <div className="ebook-content">
 
       <span className="ebook-tag">
-         Healing E-Book
+        Healing E-Book
       </span>
 
       <h2>
@@ -219,10 +222,50 @@ const Home = () => {
 
   </div>
 
-</section>
+  {/* ===== SECOND BOOK ===== */}
+  <div className="ebook-container water-book">
 
-    </main>
-  );
+    <div className="ebook-content">
+
+      <span className="ebook-tag">
+        Water Healing E-Book
+      </span>
+
+      <h2>
+        Water Healing E-Book
+      </h2>
+
+      <p>
+        जानिए जल चिकित्सा के अद्भुत रहस्य,
+        शरीर शुद्धि की प्राकृतिक विधियाँ
+        और पानी से रोगों को ठीक करने के प्राचीन तरीके।
+      </p>
+
+      <ul className="ebook-points">
+        <li>✔ Water Therapy Techniques</li>
+        <li>✔ Natural Detox Methods</li>
+        <li>✔ शरीर शुद्धि की प्रक्रिया</li>
+        <li>✔ पानी से प्राकृतिक उपचार</li>
+      </ul>
+
+      <a
+        href="https://superprofile.bio/vp/%E0%A4%B5%E0%A5%89%E0%A4%9F%E0%A4%B0-%E0%A4%B9%E0%A5%80%E0%A4%B2%E0%A4%BF%E0%A4%82%E0%A4%97-%E0%A4%A5%E0%A5%87%E0%A4%B0%E0%A5%87%E0%A4%AA%E0%A5%80-ebook-%E2%80%94-%E0%A4%A1%E0%A5%89--%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%AE%E0%A5%80-%E0%A4%AD%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B6-%E0%A4%9C%E0%A5%80-%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE"
+        className="ebook-btn"
+      >
+        Download Now
+      </a>
+
+    </div>
+
+    <div className="ebook-image">
+      <img src={waterBookImg} alt="Water Healing Book" />
+    </div>
+
+  </div>
+
+</section>
+</main>
+);
 };
 
 export default Home;

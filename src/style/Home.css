@@ -349,3 +349,21 @@
   }
 
 }
+/* ================= SECOND BOOK ================= */
+
+.water-book{
+  margin-top:100px;
+  padding-top:80px;
+  border-top:1px solid rgba(0,0,0,0.08);
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+  .water-book{
+    flex-direction:column-reverse;
+    margin-top:70px;
+    padding-top:60px;
+  }
+
+}
