@@ -15,16 +15,16 @@ const events = [
     description:
       "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles."
   },        
-  /*{
+  {
     id: 2,
     title: "Shashwat Chikitsa Shivir",
-    location: "NR BRTS ROAD,OPP.ASHADEEP SCIENCE SCHOOL,AKAR SOCIETY,SIMDA NAKA,VARACHA ROAD,SURAT,GUJARAT",
-    date: "19-20 JAN 2026",
+    location: "Arya Samaj Mandir,E-Block,Chaudhary Bhawan,near Kabi Nagar,Gajiyabadh",
+    date: "24 may 2026",
     speaker: "DR. Swami Bhakti Prakash Ji",
-    image: "/Images/events/upcoming event2.jpeg",
+    image: "/Images/events/sivir.jpeg",
     description:
-      "Learn the importance of Panchakarma therapy and its role in detoxification and rejuvenation."
-  },8*/
+      "Learn the importance of Shashwat Chikitsa and its holistic approach to health and wellness in this immersive camp."
+  },
   /*{
     id: 3,
     title: "Shashwat Chikitsa Shivir",
