@@ -65,6 +65,15 @@ const centers = [
     image: "/Images/centers/nagpur.jpeg",
     /*map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5975.778133642752!2d80.94156777770996!3d26.913884999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957c2c3d0fd13%3A0x871ab3b0fedf760!2sJankipuram%2C%20Lucknow!5e1*/
+  },
+  {
+    id: 6,
+    city: "Muzaffarpur",
+    name: "Shashwat Chikitsa Wellness Centre – Muzaffarpur",
+    address: "Maa Complex 2nd Floor, Bhagwanpur Chowk,Inside SBI Branch Sri Rampuri,Gali No.1,Muzaffarpur, Bihar-842001",
+    phone: "+91 8235159351",
+    timing: "Mon – Sat : 8:00 AM – 4:00 PM",
+    image: "/Images/centers/muzzfarpur.jpeg",
   }
 ];
 
