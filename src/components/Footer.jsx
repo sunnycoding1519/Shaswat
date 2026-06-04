@@ -65,6 +65,9 @@ export default function Footer() {
                 info@shashwatchikitsa.com
               </a>
             </p>
+            <p>
+              🏥 Address: 1/639,sec-J,Janki Mor, Near Gudmba Police Station,Jankipuram,Lucknow – 226026
+            </p>
           </div>
 
           {/* SOCIAL ICONS */}
