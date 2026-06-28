@@ -28,7 +28,7 @@ export default function Contact() {
       `&message=${encodeURIComponent(formData.message)}`;
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbzZ79VOYUUC5WYF3_x8vfkbLA4Li6sYb1EWuXhW52-AWUhWRflYBhfjfrTAdRG-dmW7FA/exec",
+      "https://connect.pabbly.com/webhook-listener/webhook/IjU3NjIwNTZmMDYzMzA0MzY1MjY0NTUzNSI_3D_pc/IjU3NjcwNTY5MDYzNTA0MzM1MjZjNTUzMDUxMzMi_pc",
       {
         method: "POST",
         headers: {
