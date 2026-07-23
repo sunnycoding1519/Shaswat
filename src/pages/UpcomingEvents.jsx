@@ -7,15 +7,15 @@ const events = [
   {
     id: 1,
     title: "Shashwat Chikitsa Shivir",
-    location: "7 Tropical Drive,Zobra The Buddha,MG Road,Near Chitomi Metro Station,Delhi",
-    date: "11 to 14 June 2026",
+    location: "Sharvan Nath Nagar(Behind Chitra Cinema),Near Haridwar Railway Station,Haridwar-249401, Uttarakhand",
+    date: "11 to 13 September 2026",
     Time: "10:00 AM to 5:00 PM",
     speaker: "Dr. Swami Bhakti Prakash Ji",
-    image: "/Images/events/delhi event 1.jpeg",
+    image: "/Images/events/Haridwar.png",
     description:
       "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles."
   },        
-  {
+  /*{
     id: 2,
     title: "Shashwat Chikitsa Shivir",
     location: "Arya Samaj Mandir,E-Block,Chaudhary Bhawan,near Kabi Nagar,Gajiyabadh",
