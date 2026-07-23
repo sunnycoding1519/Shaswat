@@ -8,7 +8,7 @@ const events = [
     id: 1,
     title: "Shashwat Chikitsa Shivir",
     location: "Sharvan Nath Nagar(Behind Chitra Cinema),Near Haridwar Railway Station,Haridwar-249401, Uttarakhand",
-    date: "11 to 13 September 2026",
+    date: "11 to 13 September 2026 (ph:-7970365235)",
     Time: "10:00 AM to 5:00 PM",
     speaker: "Dr. Swami Bhakti Prakash Ji",
     image: "/Images/events/Haridwar.png",
