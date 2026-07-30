@@ -11,7 +11,7 @@ const events = [
     date: "11 to 13 September 2026 (ph:-7970365235)",
     Time: "10:00 AM to 5:00 PM",
     speaker: "Dr. Swami Bhakti Prakash Ji",
-    image: "/Images/events/Haridwar.png",
+    image: "/Images/events/hari.jpeg",
     description:
       "A holistic healing camp focused on root-cause treatment through Shashwat Chikitsa principles."
   },        
