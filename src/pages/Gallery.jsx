@@ -42,6 +42,8 @@ const gallerySections = [
       "/Images/gallery/moment 8.jpeg",
       "/Images/gallery/moment 9.jpeg",
       "/Images/gallery/moment 10.jpeg",
+      "/Images/gallery/moment 11.jpeg",
+      "/Images/gallery/moment 12.jpeg",
 
     ]
   }
